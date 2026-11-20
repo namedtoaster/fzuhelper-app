@@ -168,6 +168,7 @@ const config: ExpoConfigWithHarmony = {
   },
   plugins: [
     'expo-router',
+    ['expo-camera', { microphonePermission: false }],
     [
       'react-native-permissions',
       {
